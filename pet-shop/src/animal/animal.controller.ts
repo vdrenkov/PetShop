@@ -19,7 +19,7 @@ export class AnimalController {
     return await this.animalService.findAllAnimalsByKind(kind);
   }
 
-  @Get(':id')
+  @Get(':animalID')
   async getAnimal(@Param('animalID') animalID: number) {
     return await this.animalService.findOneAnimal(animalID);
   }
