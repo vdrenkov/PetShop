@@ -1,0 +1,11 @@
+Pet shop
+
+Generate a module named Animals for the pet shop. Create controller named Animals that will handle individual endpoints. The animal must have properties: id, name, price, kind, age. Into the controller create four different methods which are:
+
+getAllAnimalsByKind() - Method: GET, Used to fetch the list of all animals with the same kind.
+getAnimal() - Method: GET, Used to retrieve the details of a particular animal by passing the animalID as a parameter.
+addAnimal() - Method: POST, Used to create and post a new animal to the existing animal list.
+deleteAnimal() - Method: DELETE, Used to delete an animal by passing the animalID as a query parameter.
+The AnimalsController must use a AnimalsService that is responsible for storing and retrieving data.
+
+Persist the data in sqlite, mysql or postgre.
